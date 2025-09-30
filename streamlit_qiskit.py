@@ -20,7 +20,7 @@ The general formalism can be described as follows:
 1. $$ \ket{\psi} = \alpha\ket{0} + \beta\ket{1} =  \begin{bmatrix} \alpha \\ \beta \end{bmatrix} $$ 
     * where $$\|\alpha\|^{2} + \|\beta\|^{2} = 1$$
 
-###### IS EQUIVALENT TO
+###### THIS IS MATHEMATICALLY EQUIVALENT TO:
 
 2. $$\ket{\psi} = \cos{\frac{\theta}{2}}\ket{0} + \sin{\frac{\theta}{2}}e^{i\phi}\ket{1}$$ 
     * where $$(r=1, \theta, \phi)$$ are the coordinates of a unit sphere
