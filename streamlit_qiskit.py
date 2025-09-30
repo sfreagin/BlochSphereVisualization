@@ -11,7 +11,7 @@ from qutip import Bloch
 
 
 st.header('Walk Around the Bloch')
-#st.caption('An interactive qubit tool')
+st.caption("###### Created by Stephen Reagin for PHYS 161, a course in Quantum Information Science at San Jose State University")
 st.markdown(r"""
 This is a tool for visualizing the *evolution* of the state of a qubit $\ket{\psi}$ as you apply a series of single-qubit quantum gates. 
 The qubit is presented as a two-state vector extending from the origin to the surface of a *Bloch sphere*. 
@@ -142,6 +142,7 @@ if Z.button("Pauli Z", width='stretch', help=pauliz_text):
 
 # Here are the rotation gate inputs
 st.subheader('Rotations and Phase Shifts')
+st.caption("Input angles as degrees (they are converted to radians behind the scenes)")
 RotTheta, RotPhi, PhasePhi, nothing_here  = st.columns(4) # "nothing here" because I want to keep 4 columns (to make it look uniform)
 RotTheta_num = RotTheta.number_input('Theta (degrees) \n\n-180 < θ < 180', width=200, min_value=-180, max_value=180, value=0)
 RotPhi_num = RotPhi.number_input('Phi (degrees) \n\n-360 < ϕ < 360)', width=200, min_value=-360, max_value=360, value=0)
