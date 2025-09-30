@@ -9,6 +9,9 @@ from qiskit.visualization import plot_bloch_vector
 from qutip import Bloch
 
 
+################################################
+#### INTRODUCTORY TEXT
+################################################
 
 st.header('Walk Around the Bloch')
 st.caption("###### Created by Stephen Reagin for PHYS 161, a course in Quantum Information Science at San Jose State University")
