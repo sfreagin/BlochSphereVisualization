@@ -123,7 +123,7 @@ qc = st.session_state.qc
 
 
 ################################################
-#### Buttons for Quantum Gates
+#### BUTTONS FOR QUANTUM GATES
 ################################################
 
 # Here are the 'standard' gates
@@ -184,6 +184,9 @@ b.show()
 st.pyplot(b.fig, width='content')
 
 
+################################################
+#### OTHER DATA POINTS
+################################################
 
 st.markdown(f"\n#### Final State Vector \n${np.round(alpha,3)}\ket{0} + {np.round(beta,3)}\ket{1}$")
 st.caption(r"State vector is $$\ket{\psi} = \alpha\ket{0} + \beta\ket{1}$$ where $$\|\alpha\|^{2} + \|\beta\|^{2} = 1$$")
@@ -200,12 +203,13 @@ st.caption("Diagram of circuits goes left-to-right")
 st.pyplot(qc.draw('mpl'))
 
 
+################################################
+#### WRAP IT UP
+################################################
 
 st.subheader('Reset the Circuit')
 if st.button('Reset Circuit (click twice)'):
     reset_function()
-
-
 
 
 
