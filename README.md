@@ -6,7 +6,7 @@ This is the GitHub repository for an interactive Streamlit app that allows you t
 
 [Link to Streamlit app](https://bloch-sphere-visualization.streamlit.app)
 
-Fore more information please contact me, Stephen Reagin, at:
+For more information please contact me, Stephen Reagin, at:
 * stephen.reagin@sjsu.edu
 * sfreagin@gmail.com (alt)
 
